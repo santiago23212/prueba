@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: PETSSAJPA
+  datasource:
+    url: jdbc:mysql://localhost:3306/veterinaria
+    username: root
+    password: ""
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
